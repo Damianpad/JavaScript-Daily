@@ -1,0 +1,1 @@
+console.log("Check for JS file link.");
