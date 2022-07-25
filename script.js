@@ -1,3 +1,6 @@
+//Create a car class
+//Give it the properties: make, year, and model
+
 //Return the sum of Two Number
 const numAdd = (a, b) => a + b;
 
