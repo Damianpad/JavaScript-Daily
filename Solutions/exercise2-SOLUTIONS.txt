@@ -1,3 +1,4 @@
+//Exercise 2
 
 // Evaluate what answers you would get if you ran this in the
 // Javascript Console in Google Chrome. Answer the questions then 
@@ -18,4 +19,3 @@ a + b // what is the answer here?
 
 // What is c equal to?
 var c;
-
