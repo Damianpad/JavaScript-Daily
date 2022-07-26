@@ -4,7 +4,7 @@
 //Return the sum of Two Number
 const numAdd = (a, b) => a + b;
 
-console.log(numAdd(1, 2));
+console.log(numAdd(500, 100));
 
 //Convert Minutes into seconds
 const converter = (a) => {
