@@ -2,4 +2,4 @@
 
 // 1. Write a JavaScript function to get the first element of an array/
 
-const firs
+const first = (n) => 
