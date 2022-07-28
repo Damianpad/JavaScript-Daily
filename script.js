@@ -1,5 +1,28 @@
 //Create a car class
 //Give it the properties: make, year, and model
+class Car {
+    constructor(year,make,model){
+        this.year = year;
+        this.make = make;
+        this.model = model;
+    }
+}
+
+class Dog {
+    constructor(name, breed, age){
+        this.name = name;
+        this.breed = breed;
+        this.age = age;
+    }
+}
+
+let myDog1 = new Dog("Pug", 2);
+console.log(myDog1.breed);
+console.log(myDog1.age);
+
+//instantiate a car
+let myCar1 = new Car(2009,"Mazda", "Mazda 3");
+
 
 //Return the sum of Two Number
 const numAdd = (a, b) => a + b;

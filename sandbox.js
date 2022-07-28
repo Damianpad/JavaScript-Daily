@@ -10,3 +10,10 @@ const getFileExtension = (str) => str.slice(str.lastIndexOf('.'));
 
 console.log(getFileExtension("index.html"));
 console.log(getFileExtension("webpack.config.js"));
+
+
+
+
+const numberAdd = (a,b) => a + b;
+console.log(numberAdd(1000,2));
+
