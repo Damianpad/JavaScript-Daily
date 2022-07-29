@@ -1,14 +1,13 @@
 /* Basics: JavaScript Arrays */
 
 // Create an array named fruits that contains 4 dirrerent types of fruits
-const fruits = ["Apples", "Bananas", "Grapes", "Strawberries"];
+const fruits = ["Apples", "Grapes", "Bananas", "Watermelon"]
 
 // Print out the "Grapes" element to the console
-console.log(fruits[2]);
+console.log(fruits[1]);
 
 // Change the "Bananas" value to "Peach"
-fruits[1] = "Peach";
-console.log(fruits);
+fruits[2] = "Peach"
 
 // Print the length of the fruits array
 console.log(fruits.length);
