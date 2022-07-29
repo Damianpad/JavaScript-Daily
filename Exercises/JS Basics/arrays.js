@@ -13,6 +13,13 @@ console.log(fruits);
 // Print the length of the fruits array
 console.log(fruits.length);
 
+// print out each value of the fruits array
+i = 0;
+while(i < fruits.length) {
+  console.log(fruits[i]);
+  i++; 
+}
+
 // Print the last item in the array
 const lastItem = fruits.length - 1;
 console.log(fruits[lastItem]);
