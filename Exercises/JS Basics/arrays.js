@@ -9,6 +9,12 @@ console.log(fruits[1]);
 // Change the "Bananas" value to "Peach"
 fruits[2] = "Peach"
 
+// Add a Strawberry value to the fruits array
+fruits.push("Strawberry");
+for (let i = 0; i < fruits.length; i++) {
+  console.log(`Here's a: ${fruits[i]}`);
+}
+
 // Print the length of the fruits array
 console.log(fruits.length);
 
