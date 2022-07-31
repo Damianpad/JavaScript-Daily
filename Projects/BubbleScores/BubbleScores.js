@@ -15,12 +15,12 @@ const score = [60, 50, 60, 58, 54, 45, 58, 50, 52, 54, 48, 69, 34, 55, 51, 52, 4
 const highScore = Math.max(...score);
 const highestSolutions = score.indexOf(highScore);
 
-i = 0;
-while (i < score.length) {
+
+for (let i = 0; i < score.length; i++) {
   output = `Bubble Solution #${i} Score: ${score[i]}`;
   console.log(output)
-  i++;
 }
+
 
 const maxIndices = () => {
 

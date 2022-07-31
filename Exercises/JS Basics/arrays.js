@@ -12,12 +12,11 @@ fruits[2] = "Peach"
 // Print the length of the fruits array
 console.log(fruits.length);
 
-// print out each value of the fruits array
-i = 0;
-while(i < fruits.length) {
-  console.log(fruits[i]);
-  i++; 
+// iterate over the fruits array
+for (var i = 0; i < fruits.length; i++) {
+  console.log("Hello " + fruits[i])
 }
+
 
 // Print the last item in the array
 const lastItem = fruits.length - 1;
