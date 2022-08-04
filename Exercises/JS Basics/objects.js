@@ -40,21 +40,43 @@ for (let i = 0; i <= chevy.passengers; i++) {
     console.log(`There are ${i} passengers in our car`);
 }
 
+// Write a function that checks to see if your car is a 1957 Chevy
 
-
-const dog = {
-    weight: 21
+function prequalify(car) {
+    if (car.year == 1957 && car.make == "chevy") {
+        console.log("")
+    }
 }
 
-var bark;
+// Create a function the returns a random car.
+
+const autoMatic = () => {
+    const make = ["Chevrolet", "Mazda", "Honda", "BMW", "Lexus"];
+    const model = ["Camaro", "MX-5", "Accord", "Z-4", "LS"];
+    const year = [2022, 2021, 2020, 2023, 2018];
+    const color = ["black", "red", "white", "silver", "blue"];
+    const convertable = [true, false];
+
+    let rand1 = Math.floor(Math.random() * make.length);
+    let rand2 = Math.floor(Math.random() * model.length);
+    let rand3 = Math.floor(Math.random() * year.length);
+    let rand4 = Math.floor(Math.random() * color.length);
+    let rand5 = Math.floor(Math.random() * convertable.length);
 
 
-if (dog.weight > 20) {
-    bark = "WOOF WOOF"
-} else {
-    bark = "woof woof"
+    let car = {
+        make: make[rand1],
+        model: model[rand2],
+        year: year[rand3],
+        color: color[rand4],
+        convertable: convertable[rand5]
+    };
+    return car;
+};
+
+const displayCar = (car) => {
+    console.log(`Your new car is a ${car.year} ${car.make} ${car.model}`)
 }
 
-var speak = bark
-
-console.log(speak)
+let carToSell = autoMatic();
+displayCar(carToSell);
