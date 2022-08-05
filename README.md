@@ -10,3 +10,6 @@ In the Exercises directory you will find a series of exercises to practice with.
 
 # Projects
 Improve your JavaScript by DOING. Here you can find projects that are challenging for any level. Try out the projects and make it your own. Try new things and share with the community.
+
+# Question
+Test your knowledge by answering questions. Questions can be found in Exercises and are in the form of comments.
