@@ -1,0 +1,7 @@
+Here are a list of resources for learning JavaSctipt:
+
+How to Learn JavaScript Faster: https://www.freecodecamp.org/news/how-to-learn-javascript-faster/
+
+The Odin Project (Full Stack JavaScript): https://www.theodinproject.com/paths/full-stack-javascript?
+
+W3 Schools (JavaScript Tutorial): https://www.w3schools.com/js/
