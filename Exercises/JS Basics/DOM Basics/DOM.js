@@ -25,3 +25,7 @@ console.log(apple);
 
 let allElements = document.querySelectorAll("h1", "li");
 console.log(allElements);
+
+// Use the getAttribute selector to select the random in Apples
+let attSelector = document.querySelector("li").getAttribute("random");
+console.log(attSelector);
