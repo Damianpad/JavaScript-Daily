@@ -29,3 +29,7 @@ console.log(allElements);
 // Use the getAttribute selector to select the random in Apples
 let attSelector = document.querySelector("li").getAttribute("random");
 console.log(attSelector);
+
+// Use the setAttribute selector to set the random value to 1000
+let newValue = document.querySelector("li").setAttribute("random", "1000");
+console.log(newValue);
