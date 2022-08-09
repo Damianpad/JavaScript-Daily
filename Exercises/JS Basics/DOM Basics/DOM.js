@@ -33,3 +33,22 @@ console.log(attSelector);
 // Use the setAttribute selector to set the random value to 1000
 let newValue = document.querySelector("li").setAttribute("random", "1000");
 console.log(newValue);
+
+/* Changing Styles
+style.{property}
+
+className
+classList
+
+classList.add
+classList.remove
+classList.toggle
+*/
+
+// Using the style.{property} change the color of the h1
+let newBackground = document.querySelector("h1").style.color = "Blue";
+
+
+// Using the style.{property} to add a border to the h1
+let newBorder = document.querySelector("h1").style.border = "solid";
+let newStyle = document.querySelector("ul").style.color = "red";
