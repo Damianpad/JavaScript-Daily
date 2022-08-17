@@ -52,3 +52,11 @@ let newBackground = document.querySelector("h1").style.color = "Blue";
 // Using the style.{property} to add a border to the h1
 let newBorder = document.querySelector("h1").style.border = "solid";
 let newStyle = document.querySelector("ul").style.color = "red";
+
+// Use querySelector to select the bth and make it print thanks when clicked
+
+let btn = document.querySelector('.btn');
+
+btn.addEventListener('click', function(){
+  console.log("Thanks!");
+})
