@@ -58,5 +58,19 @@ let newStyle = document.querySelector("ul").style.color = "red";
 let btn = document.querySelector('.btn');
 
 btn.addEventListener('click', function(){
+  let newBtn = document.createElement('button');
+  newBtn.innerHTML = "Thanks!";
+  document.body.appendChild(newBtn);
+
   console.log("Thanks!");
+
+  let colorOptions = ["red","green","blue","white","yellow","orange"];
+
+newBtn.addEventListener('click', function(){
+  let newBtnStyle = document.querySelector('.btn').style.color = colorOptions[1];
+  newBtnStyle.innerHTML = "green";
 })
+})
+
+
+
