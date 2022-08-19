@@ -61,16 +61,25 @@ btn.addEventListener('click', function(){
   let newBtn = document.createElement('button');
   newBtn.innerHTML = "Thanks!";
   document.body.appendChild(newBtn);
-
+  newBtn.className = "newBtn";
   console.log("Thanks!");
 
-  let colorOptions = ["red","green","blue","white","yellow","orange"];
 
-newBtn.addEventListener('click', function(){
-  let newBtnStyle = document.querySelector('.btn').style.color = colorOptions[1];
-  newBtnStyle.innerHTML = "green";
+  function newbtn() {
+    let colorOptions = ["red","green","blue","white","yellow","orange"];
+
+    const randomColor = colorOptions[Math.floor(Math.random() * colorOptions.length)];
+  
+    newBtn.addEventListener('click', function(){
+      let newBtnStyle = document.querySelector('.newBtn').style.color = randomColor;
+      console.log(newBtnStyle);
+    })
+  }
+
+  newbtn();
 })
-})
+
+
 
 
 
