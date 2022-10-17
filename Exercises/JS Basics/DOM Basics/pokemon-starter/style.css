@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'pokemon_hollownormal';
+    src: url('fonts/pokemon_hollow-webfont.woff2') format('woff2'),
+         url('fonts/hollow/pokemon_hollow-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    background-image: url(https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png);
+}
+
+h1, .youChose {
+    display: flex;
+    justify-content: center;
+    color: #ffd700;
+    font-family: 'pokemon_hollownormal';
+}
+
+.starters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
